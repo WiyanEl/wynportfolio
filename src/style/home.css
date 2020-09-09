@@ -1,0 +1,31 @@
+.jumbotron {
+    height: 475px;
+    background-image: url(../img/bg5.png);
+    background-size: cover;
+}
+
+.jumbotron .container {
+    margin-top: 100px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.foto-profile {
+    width: 220px;
+    border: 10px solid white;
+    margin-top: -140px;
+}
+
+@media (max-width: 767.98px) {
+    .jumbotron .container {
+        margin-top: 150px;
+    }
+
+    .jumbotron .container h1 {
+        font-size: 38px;
+    }
+
+    .jumbotron .container p {
+        font-size: 20px;
+    }
+}

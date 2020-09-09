@@ -1,0 +1,25 @@
+.info__contact {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: .8s;
+}
+
+.info__contact.muncul {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.info__contact h3 {
+    font-size: 18px;
+}
+
+.box-form {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .8s;
+}
+
+.box-form.muncul {
+    opacity: 1;
+    transform: translateY(0);
+}

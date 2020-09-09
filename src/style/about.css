@@ -1,0 +1,35 @@
+.about p {
+    font-size: 18px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .8s;
+}
+
+.about p.muncul {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about .sosmed {
+    font-size: 40px;
+    margin: auto 15px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .8s;
+}
+
+.about .sosmed.muncul {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about .sosmed:hover {
+    color: #555555;
+    cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+    .about p {
+        font-size: 16px;
+    }
+}
