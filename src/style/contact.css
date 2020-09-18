@@ -17,6 +17,7 @@
     opacity: 0;
     transform: translateY(50px);
     transition: .8s;
+    background-color: white;
 }
 
 .box-form.muncul {

@@ -13,6 +13,7 @@ $(function() {
             $(".about p, .about .sosmed").addClass("muncul");
         }
 
+        // skills
         if (wScroll > $(".skills").offset().top - 300) {
             $(".skills .sub-title").addClass("muncul");
 
@@ -23,6 +24,18 @@ $(function() {
             })
         }
 
+        // sertificate 
+        if (wScroll > $(".sertificate").offset().top - 300) {
+            $(".sertificate .sub-title").addClass("muncul");
+
+            $(".sertificate img").each(function(i) {
+                setTimeout(function() {
+                    $(".sertificate img").eq(i).addClass("muncul");
+                }, 300 * (i + 1))
+            })
+        }
+
+        // contact
         if (wScroll > $(".contact").offset().top - 300) {
             $(".sub-title").addClass("muncul");
 
